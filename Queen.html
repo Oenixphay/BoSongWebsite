@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src = "script.js" async></script>
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1 style="text-align:center"><a href="index.html">Philly's Phinest</a></h1>
+          <nav>
+          <ul id="hoods">
+
+            <li class="hood"><a href="OldCity.html">Old City</a></li>
+            <li class="hood"><a href="FishTown.html">Fishtown</a></li>
+            <li class="hood"><a href="Rittenhouse.html">Rittenhouse Square </a></li>
+            <li class="hood"><a href="Chestnut.html">Chestnut Hill</a></li>
+            <li class="hood"><a href="Queen.html">Queen Village</a></li>
+
+          </ul>
+          
+        </nav>
+      </header>
+
+      <div class="parallel_display">
+        <div class="parallel_block">
+            <h3 onclick="Reveal('Seetext')">
+                What to See
+            </h3>
+            <p style="display: none" id="Seetext">
+                Words
+            </p>
+        </div>
+        <div class="parallel_block">
+            <h3 onclick="Reveal('Dotext')">
+                What to Do
+            </h3>
+            <p style="display: none" id="Dotext">
+                Words
+            </p>
+        </div>
+        <div class="parallel_block">
+            <h3 onclick="Reveal('Eattext')">
+                What to Eat
+            </h3>
+            <p style="display: none" id="Eattext">
+                Words
+            </p>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>

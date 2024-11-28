@@ -13,3 +13,20 @@ nav{
     flex: 1;
     text-align: center;
 }
+
+.parallel_display{
+    overflow: hidden;
+} 
+
+.parallel_block{
+    text-align: center;
+    width: 27%;
+    background-color: #e6e6e6;
+    padding: 2%;
+    margin: 1%;
+    float: left;
+    min-height: auto;
+    border-radius: 15px;
+}
+
+
