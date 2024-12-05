@@ -1,56 +1,98 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <script src = "script.js" async></script>
-    <title>Document</title>
-</head>
-<body>
-
-    <header>
-        <h1 style="text-align:center"><a href="index.html">Philly's Phinest</a></h1>
-          <nav>
-          <ul id="hoods">
-
-            <li class="hood"><a href="OldCity.html">Old City</a></li>
-            <li class="hood"><a href="FishTown.html">Fishtown</a></li>
-            <li class="hood"><a href="Rittenhouse.html">Rittenhouse Square </a></li>
-            <li class="hood"><a href="Chestnut.html">Chestnut Hill</a></li>
-            <li class="hood"><a href="Queen.html">Queen Village</a></li>
-
-          </ul>
-          
-        </nav>
-      </header>
-
-    <div class="parallel_display">
-        <div class="parallel_block">
-            <h3 onclick="Reveal('Seetext')">
-                What to See
-            </h3>
-            <p style="display: none" id="Seetext">
-                Words
-            </p>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <script src = "script.js" async></script>
+        <title>Document</title>
+    </head>
+    <body>
+        <header>
+            <h1 style="text-align:center"><a href="index.html">Philly's Phinest</a></h1>
+            <nav>
+            <ul id="hoods">
+                <li class="hood"><a href="OldCity.html">Old City</a></li>
+                <li class="hood"><a href="FishTown.html">Fishtown</a></li>
+                <li class="hood"><a href="Rittenhouse.html">Rittenhouse Square </a></li>
+                <li class="hood"><a href="Chestnut.html">Chestnut Hill</a></li>
+                <li class="hood"><a href="Queen.html">Queen Village</a></li>
+            </ul>
+            </nav>
+        </header>
+        <div class="parallel_display">
+            <div class="parallel_block">
+                <h3 onclick="Reveal('Seetext')">
+                    What to See
+                </h3>
+                <img class="image" src="https://shorturl.at/4GLuc" alt="Rittenhouse Square">
+                <div style="display: none" id="Seetext">
+                    <ul>
+                        <li><strong>Rittenhouse Square</strong>
+                            <br>
+                            A beautiful public park surrounded by historic homes and luxury buildings. It's a great spot for a picnic or to relax while watching the local scene.
+                        </li>
+                        <br>
+                        <li><strong>The Barnes Foundation</strong>
+                            <br>
+                            A world-class museum housing an impressive collection of Impressionist, Post-Impressionist, and early modern paintings, as well as African art.
+                        </li>
+                        <br>
+                        <li><strong>Philadelphia Museum of Art</strong>
+                            <br>          
+                            Though technically located near Fairmount, it's just a short walk from Rittenhouse Square and home to iconic art collections, including the famous "Rocky Steps."
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="parallel_block">
+                <h3 onclick="Reveal('Dotext')">
+                    What to Do
+                </h3>
+                <img class="image" src="https://shorturl.at/S8SY8" alt="Where to Eat">
+                <div style="display: none" id="Dotext">
+                    <ul>
+                        <li><strong>Explore Rittenhouse Square</strong>
+                            <br>
+                            The square itself is the neighborhood's centerpiece, attracting residents and visitors alike. You can often find local artists, musicians, and events happening throughout the year.
+                        </li>
+                        <br>
+                        <li><strong>Shopping on Walnut Street</strong>
+                            <br>
+                            Rittenhouse is known for its upscale shopping, with boutiques and high-end stores lining Walnut Street.
+                        </li>
+                        <br>
+                        <li><strong>Dine at a High-End Restaurant</strong>
+                            <br>          
+                            Rittenhouse has a range of fine dining options, making it a great place to treat yourself to a special meal.
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="parallel_block">
+                <h3 onclick="Reveal('Eattext')">
+                    What to Eat
+                </h3>
+                <img class="image" src="https://shorturl.at/RuwXy" alt="Vetri Cucina">
+                <div style="display: none" id="Eattext">
+                    <ul>
+                        <li><strong>Vetri Cucina</strong>
+                            <br>
+                            One of Philly's top fine dining spots, known for its intimate atmosphere and Italian-inspired dishes, particularly pasta.
+                        </li>
+                        <br>
+                        <li><strong>Zahav</strong>
+                            <br>
+                            A celebrated modern Israeli restaurant, offering a blend of traditional and innovative Middle Eastern flavors. Don’t miss the hummus and lamb.
+                        </li>
+                        <br>
+                        <li><strong>Parc</strong>
+                            <br>          
+                            A French bistro offering classic dishes like croque madame and escargot, along with a lively outdoor seating area overlooking the square.
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </div>
-        <div class="parallel_block">
-            <h3 onclick="Reveal('Dotext')">
-                What to Do
-            </h3>
-            <p style="display: none" id="Dotext">
-                Words
-            </p>
-        </div>
-        <div class="parallel_block">
-            <h3 onclick="Reveal('Eattext')">
-                What to Eat
-            </h3>
-            <p style="display: none" id="Eattext">
-                Words
-            </p>
-        </div>
-    </div>
-</div>
-</body>
+    </body>
 </html>

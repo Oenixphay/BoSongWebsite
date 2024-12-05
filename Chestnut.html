@@ -1,58 +1,102 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <script src = "script.js" async></script>
-    <title>Document</title>
-</head>
-<body>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <script src = "script.js" async></script>
+        <title>Document</title>
+    </head>
+    <body>
 
-    <header>
-        <h1 style="text-align:center"><a href="index.html">Philly's Phinest</a></h1>
-          <nav>
-          <ul id="hoods">
-
-            <li class="hood"><a href="OldCity.html">Old City</a></li>
-            <li class="hood"><a href="FishTown.html">Fishtown</a></li>
-            <li class="hood"><a href="Rittenhouse.html">Rittenhouse Square </a></li>
-            <li class="hood"><a href="Chestnut.html">Chestnut Hill</a></li>
-            <li class="hood"><a href="Queen.html">Queen Village</a></li>
-
-          </ul>
-          
-        </nav>
-      </header>
+        <header>
+            <h1 style="text-align:center"><a href="index.html">Philly's Phinest</a></h1>
+            <nav>
+            <ul id="hoods">
+                <li class="hood"><a href="OldCity.html">Old City</a></li>
+                <li class="hood"><a href="FishTown.html">Fishtown</a></li>
+                <li class="hood"><a href="Rittenhouse.html">Rittenhouse Square </a></li>
+                <li class="hood"><a href="Chestnut.html">Chestnut Hill</a></li>
+                <li class="hood"><a href="Queen.html">Queen Village</a></li>
+            </ul>
+            </nav>
+        </header>
 
 
-      <div class="parallel_display">
-        <div class="parallel_block">
-            <h3 onclick="Reveal('Seetext')">
-                What to See
-            </h3>
-            <p style="display: none" id="Seetext">
-                Words
-            </p>
-        </div>
-        <div class="parallel_block">
-            <h3 onclick="Reveal('Dotext')">
-                What to Do
-            </h3>
-            <p style="display: none" id="Dotext">
-                Words
-            </p>
-        </div>
-        <div class="parallel_block">
-            <h3 onclick="Reveal('Eattext')">
-                What to Eat
-            </h3>
-            <p style="display: none" id="Eattext">
-                Words
-            </p>
-        </div>
-    </div>
-</div>
-    
-</body>
+        <div class="parallel_display">
+            <div class="parallel_block">
+                <h3 onclick="Reveal('Seetext')">
+                    What to See
+                </h3>
+                <img class = "image" src ="https://shorturl.at/POcG4" alt="Woodmere Art Museum">
+                <div style="display: none" id="Seetext">
+                    <ul>
+                        <li><strong>Chestnut Hill Historic District</strong>
+                            <br>
+                            This picturesque neighborhood is known for its charming Victorian-era homes and tree-lined streets. Wander through the district to admire the beautifully preserved architecture.
+                        </li>
+                        <br>
+                        <li><strong>Woodmere Art Museum</strong>
+                            <br>
+                            A small but lovely museum showcasing local artists and historical art collections, located in a grand historic mansion.
+                       </li>
+                        <br>
+                        <li><strong>Wissahickon Valley Park: </strong>
+                            <br>
+                            While not strictly in Chestnut Hill, this large park is nearby and offers scenic trails, waterfalls, and natural beauty, making it a perfect place for hiking and outdoor activities.                    
+                        </li>
+                        <br>
+                    </ul>       
+                </div>
+            </div>
+            <div class="parallel_block">
+                <h3 onclick="Reveal('Dotext')">
+                    What to Do
+                </h3>
+                <img class = "image" src="https://shorturl.at/o2D4T" alt="Morris Arboretum">
+                <div style="display: none" id="Dotext">
+                    <ul>
+                        <li><strong>Shopping along Germantown Avenue</strong>
+                            <br>
+                            Chestnut Hill's main street is lined with independent boutiques, antique shops, and local galleries. It's perfect for a leisurely shopping experience.        
+                        </li>
+                        <br>
+                        <li><strong>Take a Walk in the Wissahickon</strong>
+                            <br>
+                            Explore the wooded trails of the Wissahickon Gorge, which is known for its tranquility, beautiful streams, and historic bridges.
+                        </li>
+                        <br>
+                        <li><strong>Visit the Morris Arboretum</strong>
+                            <br>                  
+                                A large, beautiful garden with an impressive collection of plants, walking paths, and a canopy walk with views of the surrounding forest.
+                        </li>
+                    </ul>      
+                </div>
+            </div>
+            <div class="parallel_block">
+                <h3 onclick="Reveal('Eattext')">
+                    What to Eat
+                </h3>
+                <img class="image" src="https://shorturl.at/fUQeV" alt="Bredenbeck's Bakery">
+                <div style="display: none" id="Eattext">
+                    <ul>
+                        <li><strong>Chestnut Hill Brewing Company</strong>
+                            <br>
+                            A cozy local brewery offering craft beers and a pub-style menu with options like burgers, pizza, and pretzels.
+                        </li>
+                        <br>
+                        <li><strong>Bredenbeck's Bakery</strong>
+                            <br>
+                    A beloved spot for baked goods, especially famous for its traditional doughnuts, cookies, and cakes.
+                        </li>
+                        <br>
+                        <li><strong>The Couch Tomato Café</strong>
+                            <br>                  
+                                Known for its delicious pizza, fresh salads, and unique sandwiches in a relaxed atmosphere.
+                        </li>
+                    </ul>   
+                </div>
+            </div>
+        </div>    
+    </body>
 </html>

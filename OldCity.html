@@ -1,58 +1,106 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <script src = "script.js" async></script>
-    <title>Document</title>
-</head>
-<body>
-    
-    <header>
-        <h1 style="text-align:center"><a href="index.html">Philly's Phinest</a></h1>
-          <nav>
-          <ul id="hoods">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <script src = "script.js" async></script>
+        <title>Document</title>
+    </head>
+    <body>
+        
+        <header>
+            <h1 style="text-align:center"><a href="index.html">Philly's Phinest</a></h1>
+            <nav>
+            <ul id="hoods">
 
-            <li class="hood"><a href="OldCity.html">Old City</a></li>
-            <li class="hood"><a href="FishTown.html">Fishtown</a></li>
-            <li class="hood"><a href="Rittenhouse.html">Rittenhouse Square </a></li>
-            <li class="hood"><a href="Chestnut.html">Chestnut Hill</a></li>
-            <li class="hood"><a href="Queen.html">Queen Village</a></li>
+                <li class="hood"><a href="OldCity.html">Old City</a></li>
+                <li class="hood"><a href="FishTown.html">Fishtown</a></li>
+                <li class="hood"><a href="Rittenhouse.html">Rittenhouse Square </a></li>
+                <li class="hood"><a href="Chestnut.html">Chestnut Hill</a></li>
+                <li class="hood"><a href="Queen.html">Queen Village</a></li>
 
-          </ul>
-          
-        </nav>
-      </header>
+            </ul>
+            
+            </nav>
+        </header>
 
 
-      <div class="parallel_display">
-        <div class="parallel_block">
-            <h3 onclick="Reveal('Seetext')">
-                What to See
-            </h3>
-            <p style="display: none" id="Seetext">
-                Words
-            </p>
+        <div class="parallel_display">
+            <div class="parallel_block">
+                <h3 onclick="Reveal('Seetext')">
+                    What to See
+                </h3>
+                <img class = "image" src ="https://shorturl.at/lgRMD" alt="Liberty Bell">
+                <div style="display: none" id="Seetext">
+                    <ul>
+                        <li><strong>Independence Hall</strong>
+                            <br>
+                            The birthplace of the United States, where the declaration of Independence and the U.S Constitution were signed. A must-visit historical site.
+                        </li>
+                        <br>
+                        <li><strong>Liberty Bell</strong>
+                            <br>
+                            One of America's most iconic symbols of freedom, located just a short walk from Indpendence Hall
+                        </li>
+                        <br>
+                        <li><strong>National Museum of American Jewish History</strong>
+                            <br>
+                            A museum dedicated to the Jewish experience in America, with exhibits that explore the history, culture, and contributions of Jewish Americans.              
+                        </li>
+                        <br>
+                    </ul>
+                </div>
+            </div>
+            <div class="parallel_block">
+                <h3 onclick="Reveal('Dotext')">
+                    What to Do
+                </h3>
+                <img class = "image" src="https://shorturl.at/eCvBu" alt="Elfreth's Alley">
+                <div style="display: none" id="Dotext">
+                    <ul>
+                        <li><strong>Visit South Street</strong>
+                            <br>
+                            Known for its quirky shops, restaurants, and vibrant nightlife, South Street is the heart of Queen Village’s local culture.
+                        </li>
+                        <br>
+                        <li><strong>Walk Along the Delaware River</strong>
+                            <br>
+                            Take a stroll along the river at the waterfront or enjoy outdoor seating at one of the many riverfront restaurants.
+                        </li>
+                        <br>
+                        <li><strong>Explore the Antique Shops</strong>
+                            <br>
+                            Queen Village is known for its antique stores, offering everything from vintage furniture to rare collectibles.            
+                        </li>
+                        <br>
+                    </ul>
+                </div>
+            </div>
+            <div class="parallel_block">
+                <h3 onclick="Reveal('Eattext')">
+                    What to Eat
+                </h3>
+                <img class = "image" src="https://shorturl.at/27xtx" alt="Franklin Fountain">
+                <div style="display: none" id="Eattext">
+                    <ul>
+                        <li><strong>Haven</strong>
+                            <br>
+                            A contemporary American bistro known for its seasonal menu and inventive dishes like roasted chicken and local vegetables.
+                        </li>
+                        <br>
+                        <li><strong>Miss Rachel's Pantry</strong>
+                            <br>
+                            A popular spot for plant-based dishes, offering vegan comfort food and homemade pastries.
+                        </li>
+                        <br>
+                        <li><strong>The South Street Souvlaki</strong>
+                            <br>
+                            A beloved Greek eatery serving gyros, souvlaki, and fresh pita, perfect for a quick bite while exploring the neighborhood.      
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </div>
-        <div class="parallel_block">
-            <h3 onclick="Reveal('Dotext')">
-                What to Do
-            </h3>
-            <p style="display: none" id="Dotext">
-                Words
-            </p>
-        </div>
-        <div class="parallel_block">
-            <h3 onclick="Reveal('Eattext')">
-                What to Eat
-            </h3>
-            <p style="display: none" id="Eattext">
-                Words
-            </p>
-        </div>
-    </div>
-</div>
-
-</body>
+    </body>
 </html>
