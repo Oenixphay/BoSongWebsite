@@ -58,6 +58,13 @@ a{
     color: white;
 }
 
+#contact {
+    text-decoration: underline;
+    color: white;
+}
+
+
+
 h1{
     font-size: 50px;
     margin: 0;
@@ -74,5 +81,10 @@ header{
     background-color: #004C54;
 }
 
+.contactinfo {
+    color: white;
+}
 
-
+h2{
+    color: lightblue;
+}
