@@ -1,34 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
+        <!--1. Link Stylesheet and Javascript-->
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="CSS/style.css">
         <script src = "Script/script.js" async></script>
+        <!--2. create title for website-->
         <title>Philly Travel Guide</title>
     </head>
     <body>
         <header>
+            <!--3. create banner for website-->
             <h1 style="text-align:center"><a href="index.html">Philly's Phinest</a></h1>
+            <!--4. create navigation bar for website; link all html files-->
             <nav>
-            <ul id="hoods">
-                <li class="hood"><a href="OldCity.html">Old City</a></li>
-                <li class="hood"><a href="FishTown.html">Fishtown</a></li>
-                <li class="hood"><a href="Rittenhouse.html">Rittenhouse Square </a></li>
-                <li class="hood"><a href="Chestnut.html">Chestnut Hill</a></li>
-                <li class="hood"><a href="Queen.html">Queen Village</a></li>
-                <li class="hood"><a href="Contact.html">Contact Us!</a></li>
-            </ul>
+                <ul id="hoods">
+                    <li class="hood"><a href="OldCity.html">Old City</a></li>
+                    <li class="hood"><a href="FishTown.html">Fishtown</a></li>
+                    <li class="hood"><a href="Rittenhouse.html">Rittenhouse Square </a></li>
+                    <li class="hood"><a href="Chestnut.html">Chestnut Hill</a></li>
+                    <li class="hood"><a href="Queen.html">Queen Village</a></li>
+                    <li class="hood"><a href="Contact.html">Contact Us!</a></li>
+                </ul>
             </nav>
         </header>
         <div class="parallel_display">
             <div class="parallel_block">
+                <!--5. show text upon click-->
                 <h3 onclick="Reveal('Seetext')">
                     What to See
                 </h3>
                 <h4>Click for more info!</h4>
                 <img class="image" src="https://shorturl.at/4GLuc" alt="Rittenhouse Square">
+                <!--6. use div tag to create city's webpage-->
                 <div style="display: none" id="Seetext">
+                    <!--7. create an unordered list to format information-->
                     <ul>
                         <li><strong>Rittenhouse Square</strong>
                             <br>
@@ -48,6 +55,7 @@
                 </div>
             </div>
             <div class="parallel_block">
+                <!--8. show text upon click-->
                 <h3 onclick="Reveal('Dotext')">
                     What to Do
                 </h3>
@@ -72,6 +80,7 @@
                     </ul>
                 </div>
             </div>
+            <!--9. use div tag to create city's webpage-->
             <div class="parallel_block">
                 <h3 onclick="Reveal('Eattext')">
                     What to Eat

@@ -1,24 +1,25 @@
+/* 1. edit the width and color of banner*/
 nav{
     width: 100%;
     background-color: #ACC0C6;
 }
-
+/* 2. center the navigation bar*/
 #hoods{
     display: flex;
     justify-content: center;
 }
-
+/* 3. center text inside navigation bar; edit font size; remove text decoration*/
 .hood{
     flex: 1;
     text-align: center;
     text-decoration: none;
     font-size: 25px;
 }
-
+/* 4. hide any content that exceeds parallel_display*/
 .parallel_display{
     overflow: hidden;
 } 
-
+/* 5. center all text; edit width; change color; add padding; add one percent to margin; make min-height auto; round border radius to 15 px*/
 .parallel_block{
     text-align: center;
     width: 27%;
@@ -29,22 +30,22 @@ nav{
     min-height: auto;
     border-radius: 15px;
 }
-
+/* 6. make images have a width and height of 250px*/
 .image{
     width: 250px;
     height: 250px;
 }
-
+/* 7. remove bullets from list*/
 ul{
     list-style: none;
 }
-
+/* 8. center text; change color to white; edit font size to 20 px*/
 #welcome{
     text-align: center;
     color: white;
     font-size: 20px;
 }
-
+/* 9. make image take up full width of container; make margin auto; make height and width 600px; round border radius to 15px*/
 #big_image{
     display: block;
     margin: auto;
@@ -52,39 +53,39 @@ ul{
     width: 600px;
     border-radius: 15px;
 }
-
+/* 10. remove text decoration; change color to white*/
 a{
     text-decoration: none;
     color: white;
 }
-
+/* 11. add underline to contact text; change color to white*/
 #contact {
     text-decoration: underline;
     color: white;
 }
 
 
-
+/* 12. change font size of h1 to be 50px; make margin and padding 0*/
 h1{
     font-size: 50px;
     margin: 0;
     padding: 0;
 }
-
+/* 13. make padding none; make margin 0; change background color*/
 body{
     padding: none;
     margin: 0;
     background-color: #004C54;
 }
-
+/* 14. make header background color green*/
 header{
     background-color: #004C54;
 }
-
+/* 15. make contactinfo class white*/
 .contactinfo {
     color: white;
 }
-
+/* 16. change color of h2 to be lightblue*/
 h2{
     color: lightblue;
 }
